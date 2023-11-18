@@ -938,7 +938,7 @@ border-radius: 16px;
     clear: both;
     width: 760px;
     height: 300px;
-    margin-right: 520px;
+    margin-right: 150px;
     margin-top: -270px;
   
   }
@@ -968,11 +968,13 @@ border-radius: 16px;
 }
 .blue .wheel{
     width: 200px;
-    background-image: url(wheel-spinner.webp);
-    height: 200px;
+    position: absolute;
+    background-image: url(wheel-spinner.webp)  ;
+    height: 100px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-   margin-right: 500px;
+   margin-top: 80px;
+   margin-right: 300px;
     
 
 }
@@ -984,9 +986,9 @@ border-radius: 16px;
 .blue .missions{
     width: 200px;
     background-image: url(missions.webp);
-    height: 200px;
-    margin-top: -70px;
-    margin-right: 755px;
+    height: 100px;
+    margin-top: 80px;
+    margin-right: 555px;
     object-fit: cover;
 
 }
@@ -997,14 +999,442 @@ border-radius: 16px;
 .blue .awards{
     width: 200px;
     background-image: url(awards.webp);
-    height:200px;
+    height:100px;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     object-fit: cover;
-    margin-right: 1045px;
-    margin-top: -70px;
+    margin-right: 805px;
+    margin-top: -100px;
+    
 }
 .blue .awards p{
     margin-left: 100px;
     padding-top: 20px;
 }
+/*slider5*/
+.slider5{
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 16px;
+}
+.slider5 .subject2{
+    font-size: 20px;
+    margin-left: 600px;
+
+}
+.slider5 .swiper {
+    width: 100%;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.slider5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% ) / 3) !important;
+    border-bottom: 1px solid rgb(239, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+.slider5 .swiper-slide .img{
+ height: 100px;
+ width: 100px;
+ 
+}
+.slider5 .swiper-slide .number{
+    color: aqua;
+    margin-top: -4px;
+}
+.slider5 .swiper-slide .describtion{
+    font-size: 11px;
+    width: 200px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    
+}
+.sj{
+    width: 100%;
+    height: 150px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.container-row{
+    
+    width:  100%;
+    border: 1px solid #888;
+    border-radius: 16px;
+    height: 2100px;
+    margin-top: 40px;
+}
+.row {
+    display: flex;
+  flex-wrap: wrap;
+
+  
+    
+  }
+
+.partw{
+    
+    padding-right: -20px;
+    flex-basis: 50%;
+    padding: 20px;
+    
+    
+  }
+
+
+.row .partw .image{
+    width: 150px;
+    height: 150px;
+}
+.row .partw .paragraph{
+    font-size: 13px;
+    margin-right: 5px;
+    margin-top: -20px;
+}
+.row .partw .text{
+    width: 95px;
+    height: 50px;
+    background-color: #ef394e;
+    border-radius: 20px;
+    margin-left: 130px;
+    
+}
+.row .partw h3{
+    font-size: 12px;
+    color: #a1a3aB;
+    text-decoration: line-through;
+}
+.container-row .mainly{
+    margin-left: 500px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.headtitle{
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.lastofall{
+    width: 250px;
+    height: 300px;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-right: -80px;
+    border: 1px solid #888;
+    border-radius: 16px;
+    white-space: nowrap;
+}
+.lastofall .ago{
+    width: 250px;
+    margin-left: 1px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    
+    height: 200px;
+
+}
+.lastofall .reading{
+    margin-top: 210px;
+    white-space: pre-wrap;
+    margin-right: -260px;
+    color: black;
+    font-size: 11px;
+}
+.lastofall1{
+    width: 256px;
+    height: 300px;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-right: 15px;
+    border: 1px solid #888;
+    border-radius: 16px;
+
+}
+.lastofall1 .ago-1{
+    width: 250px;
+    margin-left: 1px;
+    text-decoration: none;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 200px;
+
+}
+.lastofall1 .reading{
+    margin-top: 190px;
+    white-space: pre-wrap;
+    margin-right: -206px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.final{
+    display: block;
+    margin-top: 50px;
+ }
+ .final2{
+     display: inline-block;
+     float: right;
+     padding-top: 40px;
+     font-size: 13px;
+ }
+ 
+ .span{
+     color: #888;
+ }
+ footer{
+     overflow: hidden;
+ }
+ .last-div{
+     width: calc(100 / 5);
+     display: inline-block;
+ }
+ .second{
+     display: inline-block;
+     padding-top: 50px;
+     margin-left: 100px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     
+ }
+ 
+ .last-div .second .third{
+     font-size: 11px;
+     color: black;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding-right: 30px;
+     margin-top: 10px;
+     
+ }
+ .text-last{
+     width: 100%;
+     margin-top: 50px;
+     float: right;
+     
+     
+ }
+ .text-last .support{
+     display: inline-block;
+     font-size: 16px;
+     margin-left:200px ;
+     float: right;
+ }
+ .a a{
+     text-decoration: none;
+     overflow: hidden;
+     color: #888;
+     padding-top: 10px;
+     font-size: 13px;
+ 
+ }
+ .b a{
+     text-decoration: none;
+     overflow: hidden;
+     color: #888;
+     margin-top: 10px;
+     font-size: 13px;
+     margin-right: 270px;
+ 
+ 
+ }
+ .b .hi{
+     margin-top: -140px;
+     text-decoration: none;
+     overflow: hidden;
+     color: #888;
+     
+     font-size: 13px;
+     margin-right: 270px;
+ }
+ .c a{
+     text-decoration: none;
+     overflow: hidden;
+     color: #888;
+     margin-top: 10px;
+     font-size: 13px;
+     margin-right: 570px;
+ 
+ 
+ }
+ .c .hi{
+     margin-top: -170px;
+     text-decoration: none;
+     overflow: hidden;
+     color: #888;
+     
+     font-size: 13px;
+     margin-right:570px;
+ }
+ .logo-last{
+     margin-top: -150px;
+     margin-left: 250px;
+    
+ }
+ .logo-last svg{
+     display: inline-block;
+     margin-top: 15px;
+     width: 90px;
+    
+ }
+ .news{
+     font-size: 17px;
+     color: #6e6d6d;
+     margin-left: -130px;
+ }
+ .email{
+     background-color: #bdb9b9;
+     color: grey;
+     border-radius: 12px;
+     height: 50px;
+     width: 250px;
+     margin-right: 100px;
+     text-decoration: none;
+     box-shadow: none;
+ }
+ .regester{
+     border-radius: 12px;
+     width: 70px;
+     height: 50px;
+     background-color: #bdb9b9;
+     color: grey;
+     margin-left: -140px;
+     margin-top: 10px;
+ }
+ .bazar{
+     width: 120%;
+     height: 80px;
+     background-color: rgb(45, 66, 94);
+     margin-top: 70px;
+     margin-right: 15px;
+     border-radius: 11px;
+     overflow: hidden;
+ }
+ .bazar .img{
+     width: 60px;
+     height: 60px;
+     margin-top: 10px;
+     margin-left: 1250px;
+     margin-right: 25px;
+ 
+ }
+ .bazar h4{
+     color: white;
+     font-size: 24px;
+     margin-top: -40px;
+    white-space: nowrap;
+     margin-left: 650px;
+ }
+ .bazar .shopping{
+     width: 150px;
+     height: 100px;
+     margin-top: -90px;
+ }
+ 
+ .bazar .more{
+     margin-top: -90px;
+     background-color: white;
+     width: 50px;
+     border-radius: 10px;
+     height: 45px;
+     margin-left: 20px;
+ }
+ .analyze{
+     width: 120%;
+     height: 300px;
+    
+ }
+ .analyze .title{
+     color: #6e6969;
+     font-size: 24px;
+     margin-left: 820px;
+     margin-top: 30px;
+     white-space: nowrap;
+ }
+ .analyze .see{
+     width: 50%;
+     font-size: 12px;
+     color: #888;
+     direction: rtl;
+ }
+ .analyze .lastsee{
+     font-size: 13px;
+     color: rgb(95, 184, 184);
+     margin-right: 5px;
+    
+ }
+ .analyze .lastsee svg{
+     margin-top: -1px;
+ }
+ 
+ .analyze  .seeimg{
+     width: 120px;
+     height: 120px;
+     border-radius: 5px;
+     margin-top: -270px;
+     border: 1px solid gray;
+ }
+ .law{
+     font-size: 11px;
+     color: #888;
+     height: 40px;
+     margin-top: 30px;
+ }
+ .logo-last1 {
+    background-color: antiquewhite;
+     width: 120%;
+     height: 100px;
+ }
+ .logo-last1 .img-last{
+     width: 160px;
+     height: 100px;
+     margin-left: 20px;
+     background-color: antiquewhite;
+     padding-left: 10px;
+     border-left: 1px solid;
+     
+ 
+ }
+ .logo-real {
+    border-top: 1px solid gray; 
+     width: 120%;
+     height: 100px;
+     background-color: antiquewhite;
+ }
+ .logo-real .img-real{
+     width: 160px;
+     height: 100px;
+     margin-left: 20px;
+     background-color: antiquewhite;
+     padding-left: 10px;
+     border-left: 1px solid gray;
+     
+ 
+ }
+ .ad{
+     width: 100px;
+     height: 30px;
+     display: inline-block;
+     margin-right: 300px;
+     margin-left: 60px;
+     text-align: center;
+     border: 1px solid gray;
+     font-size: 13px;
+     text-decoration: none;
+     color: black;
+     border-radius: 10px;
+     
+ }
+ main{
+     z-index: 5000;
+ }
