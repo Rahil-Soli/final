@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IRANYekan', sans-serif;
+                                                
+                
+}
+::placeholder{
+    font-family:'IRANYekan', sans-serif ;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.menu .navf{
+    width: 100%;
+    z-index: 200;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+    object-fit: cover;
+
+}
+.menu .navf .ulf{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow: hidden;
+    overflow-y: hidden;
+    object-fit: cover;
+    
+}
+.menu .navf .ulf .lif{
+    overflow: hidden;
+    overflow-y: hidden;
+    object-fit: cover;
+    height: 100%;
+    display: inline-block;position: relative;
+}
+.menu .navf .ulf .lif .af{
+    height: 100%;
+   
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 12px;
+    color: #888;
+}
+.menu .navf .ulf .lif .af
+img{
+    margin-bottom: -8px;
+    margin-top: -5px;}
